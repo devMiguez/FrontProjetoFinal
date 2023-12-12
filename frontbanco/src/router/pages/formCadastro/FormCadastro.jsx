@@ -25,7 +25,17 @@ function Servico() {
     event.preventDefault();
     axios.post("http://localhost:8080/clientes", atributosCliente).then(resultado =>{
       console.log(resultado)
-    })
+      
+      // Limpar o formulário após o envio bem-sucedido
+      setAtributosCliente({
+        nome: '',
+        sobrenome:'',
+        cpfCnpj: '',
+        email: '',
+        senha: '',
+        tipoCliente: ''
+      });
+    });
   }
 
   return (
