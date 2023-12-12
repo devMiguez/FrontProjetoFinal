@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto ;
+
+}
+
+form {
+    background-color: #F5FFFA;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(0, 0, 232);
+    padding: 30px;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #1C1C1C;
+
+}
+
+.but{
+    margin-top: 20px;
+    text-align: center;
+}
