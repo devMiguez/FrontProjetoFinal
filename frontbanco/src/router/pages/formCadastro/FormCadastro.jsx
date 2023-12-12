@@ -2,6 +2,8 @@ import './formCadastro.css';
 import axios from 'axios';
 import React, {useEffect, useState} from 'react';
 
+import { Link } from 'react-router-dom';
+
 
 function Servico() {
 
@@ -71,8 +73,13 @@ function Servico() {
 
           </div>
 
-          <div className="but">
-            <input className='btn btn-success' type="submit" value='cadastrar' />
+          <div className="buts">
+            <button type="submit" class="btn btn-success">Cadastrar</button>
+
+            <Link to="/">
+                <button type="button" class="btn btn-danger">Voltar</button>
+            </Link>
+
           </div>
 
 
