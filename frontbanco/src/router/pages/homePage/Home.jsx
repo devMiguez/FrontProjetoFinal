@@ -12,7 +12,10 @@ export default function Home(){
                     <button type="button" class="btn btn-dark">Cadastro</button>
                 </Link>
 
-                <button type="button" class="btn btn-dark">Criar conta</button>
+                <Link to="/conta">                    
+                    <button type="button" class="btn btn-dark">Criar conta</button>
+                </Link>
+
             </div>
 
         </div>
